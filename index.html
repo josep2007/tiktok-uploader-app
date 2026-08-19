@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Video Uploader</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #000000, #1a1a2e, #16213e);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #fe2c55, #25f4ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            color: #888;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+        .features {
+            text-align: left;
+            margin: 30px 0;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 15px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+        }
+        .feature-icon {
+            font-size: 1.5rem;
+            margin-right: 15px;
+        }
+        .feature-text h3 { margin-bottom: 5px; }
+        .feature-text p { color: #888; font-size: 0.9rem; }
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 40px;
+            background: linear-gradient(90deg, #fe2c55, #25f4ee);
+            color: black;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        footer {
+            margin-top: 50px;
+            color: #555;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TikTok Uploader</h1>
+        <p class="subtitle">Sube videos automaticamente a tu cuenta de TikTok</p>
+
+        <div class="features">
+            <div class="feature">
+                <span class="feature-icon">&#127909;</span>
+                <div class="feature-text">
+                    <h3>Subida automatica</h3>
+                    <p>Sube multiples videos de forma automatica sin intervention manual</p>
+                </div>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">&#128230;</span>
+                <div class="feature-text">
+                    <h3>Cola de subidas</h3>
+                    <p>Programa una lista de videos y la app los sube uno por uno</p>
+                </div>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">&#128274;</span>
+                <div class="feature-text">
+                    <h3>Seguro y rapido</h3>
+                    <p>Usa la API oficial de TikTok para subir tu contenido</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://www.tiktok.com" class="btn">Ir a TikTok</a>
+
+        <footer>
+            <p>Esta herramienta usa la Content Posting API oficial de TikTok</p>
+        </footer>
+    </div>
+</body>
+</html>
